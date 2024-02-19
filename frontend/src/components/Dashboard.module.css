@@ -1,0 +1,42 @@
+body {
+  background: radial-gradient(bisque, transparent);
+}
+
+.page {
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+  gap: 2rem;
+}
+
+.filterSection {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.chartSection {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 75%;
+}
+
+.resetBtn {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: bisque;
+  border: 1px solid brown;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
